@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* header */
+.logo-head{
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    height:60px;
+    color:teal;
+}
+.logo-head .logo{
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;    
+    font-weight:700;
+    color:rgb(0, 78, 78);
+}
+.logo-head .search input{
+    width:350px;
+    height:30px;
+    outline:none;
+    padding: 5px 10px;
+    padding-right: 30px;
+    border-radius:10px;
+    border:2px solid rgb(175, 171, 171);
+}
+.logo-head .search i{
+    position: absolute;
+    top:22px;
+    right:510px;
+    color:rgb(175, 171, 171);
+}
+.logo-head .price{
+    font-size: 25px;
+    font-weight:500;
+    padding: 5px;    
+    display: flex;
+    color:black;
+}
+.logo-head .price i{
+    color:teal;
+    margin-top: 5px;
+    margin-right: 3px;
+}
+
+/* links */
+.links{
+    background-color: rgb(12, 180, 180);
+    color:white;
+    padding-left: 130px;
+    width: 100%;
+    font-weight: 500;
+}
+.links ul{
+    display: flex;
+    list-style:none;
+    align-items: center;
+    height:40px;
+    width:1100px;
+}
+.links .contact{
+    padding: 10px;
+}
+.links ul li{
+    padding-right:20px;
+    margin-left:20px;
+    border-right:2px solid teal;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:rgb(250, 232, 232);
+}
+a:active{
+    color:white;
+}
+/* body content */
+.img1{
+    display: inline;
+    position: absolute;
+    top:200px;
+    right:280px;
+
+}
+.t-shirt img{
+    mix-blend-mode: multiply;
+}
+.body{
+    background-color: rgb(9, 201, 201);
+    height:350px;
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    justify-content: center;
+}
+.body .detais{
+    width:400px;
+    margin-left: 130px;
+    color:white;
+}
+.body .detais h2{
+    padding: 10px 0px;
+    font-size: 35px;
+}
+.body .shop-btn button{
+    padding: 10px 20px;
+    margin-left: 130px;
+    margin-top: 20px;
+    border:2px solid white;
+    background-color:transparent;
+    color:white;
+    font-weight: bold;
+    border-radius:7px;
+} 
+.body .shop-btn button:hover{
+    color:rgb(250, 232, 232);
+}
+.body .shop-btn button:active{
+    color:white;
+}
+
+/* inner body */
+.inner-body{
+    display: flex;
+    height: 130px;
+    width:100%;
+    
+}
+.inner-body .inner-body-items{
+    height:70px;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 300px;
+    justify-content: space-between;
+    width: 700px;
+}
+.inner-body .inner-body-items div{
+    width: 50px;
+    height: 100%;
+    padding: 5px;
+}
+.inner-body .inner-body-items .shop-items{
+    display: flex;
+     margin-right: 30px;
+}
+.inner-body .inner-body-items .shop-items .im2{
+    margin-right: 10px;
+}
+.inner-body .inner-body-items div button{
+padding:5px 10px;
+margin: 10px 0px;
+background-color:rgb(12, 180, 180) ;
+border-radius:5px;
+font-weight: bold;
+color:white;
+border:2px solid white;
+}
+.inner-body .inner-body-items div button:hover{
+    color:rgb(250, 232, 232);
+}
+.inner-body .inner-body-items div button:active{
+    color:white;
+}
+
+/* Footer top */
+.product{
+    background-color:rgb(12, 180, 180) ;
+    padding: 10px 130px;
+    color:white;
+    font-weight:500;
+    width:100%;
+    font-size:20px;
+}
+
+/* Footer */
+.footer{
+    width:100%;
+    display:flex;
+}
+.footer .footer-items{
+    padding:10px;
+    width:180px;
+    border:2px solid rgb(221, 217, 217);
+    margin-left:200px;
+    margin-top:20px;
+    box-shadow:0 0 10px rgb(211, 209, 209);
+    border-radius:10px 10px 0px 0px;
+    border-bottom:4px solid rgb(12, 180, 180) ;
+    margin-bottom:30px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.footer .footer-items h4{
+margin:5px 0px;
+}
+.footer .footer-items .indulge{
+    display: flex;
+}
+.footer .footer-items .indulge p{
+    margin:2px 8px;
+}
+.footer .footer-items .indulge button{
+    padding: 5px 7px;
+    color:white;
+    background-color:rgb(12, 180, 180);
+    border-radius:5px;
+    font-weight: bold;
+    border:none;
+}
+.footer .footer-items .indulge button:hover{
+    color:rgb(250, 232, 232);
+}
+.footer .footer-items .indulge button:active{
+    color:white;
+}
